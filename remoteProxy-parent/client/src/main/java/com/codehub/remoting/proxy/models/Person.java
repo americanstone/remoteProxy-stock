@@ -1,4 +1,4 @@
-package models;
+package com.codehub.remoting.proxy.models;
 
 public class Person implements IPerson{
 	private String name;

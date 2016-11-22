@@ -9,7 +9,7 @@ import java.util.Properties;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-import util.WrappedRuntimeException;
+import com.codehub.remoting.proxy.util.WrappedRuntimeException;
 /**
  * Producer that listens to a specified port for client requests. <p/>The implementation is based on sockets. <p/>The
  * invoker spawns a specified number of listener threads in which each one of these spawns a new RemoteProxyServerThread

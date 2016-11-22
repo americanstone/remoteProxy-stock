@@ -1,7 +1,9 @@
-import com.codehub.remoting.proxy.RemoteProxy;
+package com.codehub.remoting.proxy;
+
 import com.codehub.remoting.proxy.RemoteProxyServerManager;
-import models.IPerson;
-import models.Person;
+import com.codehub.remoting.proxy.models.IPerson;
+import com.codehub.remoting.proxy.models.Person;
+import com.codehub.remoting.proxy.proxy.RemoteProxy;
 
 public class Main {
 	public static void main(String[] args) {
@@ -10,8 +12,8 @@ public class Main {
 
 
 		RemoteProxy proxy1 = RemoteProxy.createClientProxy(
-				new String[]{"models.IPerson"}, // interface(s)
-				"models.Person",  // implementation
+				new String[]{"com.codehub.remoting.proxy.models.IPerson"}, // interface(s)
+				"com.codehub.remoting.proxy.models.Person",  // implementation
 				"localhost",       // server IP or hostname
 				1099               // server port
 		);

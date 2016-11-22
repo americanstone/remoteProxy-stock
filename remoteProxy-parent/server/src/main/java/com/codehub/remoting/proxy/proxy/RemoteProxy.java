@@ -1,7 +1,8 @@
-package com.codehub.remoting.proxy;
+package com.codehub.remoting.proxy.proxy;
 
-import util.UuidGenerator;
-import util.WrappedRuntimeException;
+import com.codehub.remoting.proxy.Command;
+import com.codehub.remoting.proxy.util.UuidGenerator;
+import com.codehub.remoting.proxy.util.WrappedRuntimeException;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;

@@ -1,4 +1,4 @@
-package util;
+package com.codehub.remoting.proxy.util;
 
 import java.net.URL;
 

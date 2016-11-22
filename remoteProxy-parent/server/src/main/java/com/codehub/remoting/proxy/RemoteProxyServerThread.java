@@ -1,6 +1,7 @@
 package com.codehub.remoting.proxy;
 
-import util.WrappedRuntimeException;
+import com.codehub.remoting.proxy.proxy.RemoteProxy;
+import com.codehub.remoting.proxy.util.WrappedRuntimeException;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;

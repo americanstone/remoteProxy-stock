@@ -1,7 +1,8 @@
 package com.codehub.remoting.proxy;
 
-import util.ClassLoaderHelper;
-import util.WrappedRuntimeException;
+import com.codehub.remoting.proxy.proxy.RemoteProxy;
+import com.codehub.remoting.proxy.util.ClassLoaderHelper;
+import com.codehub.remoting.proxy.util.WrappedRuntimeException;
 
 import java.io.FileInputStream;
 import java.lang.reflect.Method;
